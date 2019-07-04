@@ -1,5 +1,11 @@
 .App {
-  text-align: center;
+  top: 0;
+  position: 'relative';
+  height: 100vh;
+  background-color: '#eee';
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased; 
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .App-logo {
@@ -22,6 +28,11 @@
 .App-link {
   color: #61dafb;
 }
+
+.MuiListItem-root.Mui-selected, .MuiListItem-root.Mui-selected:hover {
+  color:#333,
+}
+
 
 @keyframes App-logo-spin {
   from {
